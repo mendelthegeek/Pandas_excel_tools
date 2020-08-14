@@ -16,7 +16,7 @@ from tkinter import filedialog
 class Root(Tk):
     def __init__(self):
         super(Root, self).__init__()
-        self.title("Spreadsheet seperate sheet adding program")
+        self.title("Spreadsheet separate sheet adding program")
         self.minsize(500, 500)
 
         self.labelFrame = ttk.LabelFrame(self, text = "Select Spreadsheet")
